@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +14,28 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  margin: 0.5rem 0;
+  padding: 0.5rem 2rem;
+
+  background-color: #ff2058;
+
+  font: inherit;
+  color: white;
+
+  border: 1px solid #ff2058;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+button:focus {
+  outline: none;
 }
